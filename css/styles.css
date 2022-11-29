@@ -8,6 +8,7 @@
     --secondery-fontfamily:'Raleway', sans-serif;
     --light-maine-color:#FFFFFF;
     --icon-backgraund:#F5F4FA;
+    --gray-partner-color:#AFB1B8;
 
 }
 body{
@@ -117,19 +118,33 @@ color: #000000;
 .header-contact-list:not(:last-child){
 margin-right: 50px;
 }
-.header-contact-tel,
-.header-contact-email
-{font-weight: 500;
+.header-contact-list{
+    padding: 20px 0;
+}
+.header-contact-link{
+    padding: 25px 0;
+    font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--gray-maine-color);
 }
+.header-contact-list svg{
+ margin-right: 10px;   
+}
 
+.icon-email{
+    width:16px ;
+    height:12px ;
+}
+.icon-tel {
+    width: 10px;
+    height: 16px;
 
+}
 .header-contact :hover,
 .header-contact :focus
-{
+{   fill: var(--blue-maine-color);
     color: var(--blue-maine-color);
 }
 /*---------------heroi-----------------*/
@@ -276,8 +291,9 @@ color: var(--gray-maine-color);
 }
 
 /*------------------------------team --------------*/
-.team{
-    background-color: #F5F4FA;
+.team-section{
+   margin-bottom: 104px;
+   background-color: #F5F4FA;
    
 }
 .team-list{
@@ -362,6 +378,48 @@ width: 44px;
    
 }
 
+/*--------------- partner company*/
+.partner-company{
+    margin-bottom: 50px;
+}
+.header-partner{
+    margin-bottom: 50px;
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.partner-logo-box{
+display: flex;
+flex-direction: row;
+    justify-content: space-between;
+}
+.partner-link{
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner-link:hover,
+.partner-link:focus{
+    border: 1px solid ;
+    border-color: var(--blue-maine-color);
+}
+.partner-logo{
+    width: 170px;
+        height: 92px;
+        padding: 16px 27px;
+
+    fill: var(--gray-partner-color);
+}
+.partner-logo:hover,
+.partner-logo:focus{
+    fill: var(--blue-maine-color);
+}
+
 
 
 
@@ -433,10 +491,25 @@ margin-bottom: 20px;
             
                 color: #FFFFFF;
           }
-          .footer-icon-social{
-            fill: var(--light-maine-color);
+         
+          .link-social-footer{
+            width: 44px;
+            height: 44px;
+
+            border-radius: 22px;
+            background-color: rgba(255, 255, 255, 0.1);
           }
+          .link-social-footer:hover,
+          .link-social-footer:focus{
+            background-color: var(--blue-maine-color);
+          }
+             .link-social-footer:not(:last-child){
+                margin-right: 10px;
+             }
           .icon-social-footer{
+            width: 44px;
+                height: 44px;
+                padding: 11px;
             fill: #FFFFFF;
           }
 
