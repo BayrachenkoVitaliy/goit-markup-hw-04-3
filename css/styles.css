@@ -370,7 +370,7 @@ color:var(--gray-maine-color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: var(--gray-maine-color);
+    color: #AFB1B8;
 }
 .icon-social {
     fill: currentColor;
@@ -384,7 +384,7 @@ color:var(--gray-maine-color);
 
 /*--------------- partner company*/
 .partner-company{
-    margin-bottom: 50px;
+    padding: 94px 0;
 }
 .header-partner{
     margin-bottom: 50px;
@@ -550,6 +550,7 @@ line-height: 1.63;
 letter-spacing: 0.03em;
 color:var(--black-maine-color) ;
 cursor: pointer;
+border: none;
 
 }
 
